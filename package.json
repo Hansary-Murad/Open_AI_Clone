@@ -1,0 +1,68 @@
+{
+  "name": "Murad-AI",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "💬 AI Chat Assistant with OpenRouter & Gemini",
+  "author": "Murad",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "format": "prettier --write 'src/**/*.{js,jsx,css}'",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "axios": "^1.18.1",
+    "jspdf": "^4.2.1",
+    "jspdf-autotable": "^5.0.8",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-dropzone": "^20.0.0",
+    "react-hook-form": "^7.83.0",
+    "react-markdown": "^10.1.0",
+    "react-speech-recognition": "^4.0.1",
+    "remark-gfm": "^4.0.1",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
+    "eslint": "^10.6.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.3",
+    "globals": "^17.7.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3",
+    "vite": "^8.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [
+    "ai",
+    "chat",
+    "react",
+    "openrouter",
+    "gemini",
+    "chatbot"
+  ]
+}
